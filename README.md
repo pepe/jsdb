@@ -63,6 +63,9 @@ db.people[1].age = 33
 
 // Add Oskar to the family. (This will automatically update db/people.js)
 db.people.push({name: 'Oskar', age: 8})
+
+// Change Oskar's name. (This will aumatically update db/people.js)
+db.people[2].name = 'Osky'
 ```
 
 After running the above script, take a look at the resulting database table in the `./db/people.js` file.
